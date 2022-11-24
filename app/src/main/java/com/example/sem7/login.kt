@@ -68,7 +68,7 @@ class login : AppCompatActivity() {
 
     }
     private fun showHome(email:String, provider: ProviderType){
-        val homeIntent: Intent = Intent(this,LoginUser::class.java).apply {
+        val homeIntent: Intent = Intent(this,RegistrarPet::class.java).apply {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }

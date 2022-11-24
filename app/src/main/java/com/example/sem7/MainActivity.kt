@@ -14,5 +14,10 @@ class MainActivity : AppCompatActivity() {
             var saltarGPS:Intent= Intent(this, login::class.java)
             startActivity(saltarGPS)
         }
+
+        btn_accesoPet.setOnClickListener() {
+            var saltarGPS: Intent = Intent(this, RegistrarPet::class.java)
+            startActivity(saltarGPS)
+        }
     }
 }

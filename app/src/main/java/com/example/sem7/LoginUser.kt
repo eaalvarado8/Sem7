@@ -6,11 +6,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_login_user.*
 
-enum class ProviderType{
-    BASIC,
-    GOOGLE,
-    FACEBOOK
-}
+
 
 class LoginUser : AppCompatActivity() {
     private val db = FirebaseFirestore.getInstance()
